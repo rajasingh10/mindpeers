@@ -1,0 +1,40 @@
+.schedule_left_card {
+  background-color: white;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  margin-bottom: 0.8rem;
+  box-shadow: 0px 5px 10px -5px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+.bgblack {
+  background-color: black;
+  color: white;
+}
+.card_left {
+  display: flex;
+  align-items: center;
+}
+.card_left > img {
+  width: 25%;
+  object-fit: contain;
+}
+.title {
+  margin-left: 1rem;
+  font-size: 1vw;
+  width: 100%;
+}
+.title > p {
+  color: gray;
+}
+.card_right {
+  width: 10% !important;
+}
+.card_right .MuiAvatar-root {
+  width: 45% !important;
+  height: 45% !important;
+}

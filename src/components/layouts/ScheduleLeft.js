@@ -6,7 +6,7 @@ import MoreHorizIcon from "@mui/icons-material/MoreHoriz";
 import ArrowCircleDownIcon from "@mui/icons-material/ArrowCircleDown";
 import CreateIcon from "@mui/icons-material/Create";
 import allActions from "../../redux/actions";
-import { useSelector, useDispatch } from "react-redux";
+import { useDispatch } from "react-redux";
 
 const ScheduleLeft = () => {
   const dispatch = useDispatch();
